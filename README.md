@@ -19,7 +19,7 @@ STOCK_CHART_WORKER_URL=
 ```
 
 3. Run in dev: `yarn dev`
-4. For deployment, TBD.
+4. For deployment, TBD. :(
 
 ## Commands
 
