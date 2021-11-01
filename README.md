@@ -10,7 +10,7 @@ Discord bot for posting stock charts. Based on [stock-chart-generator](https://g
 ## Get started
 
 1. Install dependencies: `yarn`
-2. Add a `.env` file in the project root with the following lines, fill in your own values.
+2. Add a `.env` file in the project root with the following lines, fill in your own values. Make sure not to make that file public if you fork this, add it to gitignore or else someone can steal your bot's token
 
 ```
 DISCORD_API_TOKEN=
@@ -19,8 +19,8 @@ STOCK_CHART_WORKER_URL=
 ```
 
 3. Run in dev: `yarn dev`
-4. For deployment, TBD. :(
-
+4. For deployment, TBD. 
+:)
 ## Commands
 
 - `!chart SYMBOL`: generates a daily chart for the provided symbol
